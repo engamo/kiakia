@@ -56,7 +56,7 @@ const Navbar = () => {
             },
           }}
         >
-          Sociopedia
+          KiaKia
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
