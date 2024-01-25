@@ -4,7 +4,7 @@ export const verifyToken = async (req, res, next) => {
   try {
     let token = req.header("Authorization");
 
-    if (!token) {
+    if (!token) {CD
       return res.status(403).send("Access Denied");
     }
 
